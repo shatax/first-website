@@ -2000,6 +2000,11 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
+codepen@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/codepen/-/codepen-1.0.0.tgz#b849d087b7df23135ab63f2365da09aece2d5f11"
+  integrity sha1-uEnQh7ffIxNatj8jZdoJrs4tXxE=
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"

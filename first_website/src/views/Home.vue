@@ -1,13 +1,15 @@
 <template>
-  <HelloWorld />
+  <div>
+    Hi there
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import Footer from "../components/Footer";
 
-  export default {
-    components: {
-      HelloWorld
-    }
+export default {
+  components: {
+    Footer
   }
+};
 </script>
