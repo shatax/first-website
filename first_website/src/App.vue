@@ -1,34 +1,26 @@
 <template>
   <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-      </v-btn>
-    </v-toolbar>
-
     <v-content>
+      <Header/>
       <router-view />
-      <Footer />
     </v-content>
+    <v-footer>
+      <Footer />
+    </v-footer>
   </v-app>
 </template>
 
 <script>
 import Footer from "./components/Footer";
+import Header from "./components/Header";
+import LandingPage from "./components/LandingPage";
 
 export default {
   name: "App",
   components: {
-    Footer
+    Footer,
+    Header,
+    LandingPage
   },
   data() {
     return {
